@@ -13,6 +13,13 @@
 # package maintainers to append LDFLAGS
 #export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
+DESTDIR=$(CURDIR)/debian/wpilib-cpp-plugin-files
+
+install:
+	cp -r	ant		$(DESTDIR)/usr/wpilib
+	cp -r	include		$(DESTDIR)/usr/wpilib
+	cp -r	lib		$(DESTDIR)/usr/wpilib
+	cp	license.txt	$(DESTDIR)/usr/wpilib
 
 %:
 	dh $@ 

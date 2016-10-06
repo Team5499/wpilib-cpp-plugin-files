@@ -1,5 +1,5 @@
-wpilib-cpp-plugin-files (2016.0-0ubuntu1-1) unstable; urgency=medium
+wpilib-cpp-plugin-files (2016.0-0ubuntu1-1) xenial; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Connor Worley <connorbworley@gmail.com>  Thu, 06 Oct 2016 07:23:16 -0700
