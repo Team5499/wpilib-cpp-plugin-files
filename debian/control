@@ -5,7 +5,7 @@ Maintainer: Connor Worley <connorbworley@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.7
 Homepage: https://github.com/Team5499/wpilib-cpp-plugin-files
-Vcs-Git: ssh://git@github.com:/Team5499/wpilib-cpp-plugin-files
+Vcs-Git: https://github.com/Team5499/wpilib-cpp-plugin-files
 Vcs-Browser: https://github.com/Team5499/wpilib-cpp-plugin-files
 
 Package: wpilib-cpp-plugin-files
